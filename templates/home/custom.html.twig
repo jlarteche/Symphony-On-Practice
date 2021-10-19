@@ -1,0 +1,11 @@
+{% extends('base.html.twig') %}
+{# extendemos el layout de base.html.twig #}
+
+{# indicamos lo que queremos que aparezca en el bloque body #}
+{% block body %}
+    <h1>hola {{ nombre }} custom desde twig</h1>
+{% endblock %}
+
+
+{# <h1>hola {{ nombre }} custom desde twig</h1> #}
+{# esto era para antes de las extends #}
